@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>UkiyoFileEditor</RootNamespace>
+    <AssemblyName>UkiyoFileEditor</AssemblyName>
+    <!-- WFO1000: public properties of controls / dialogs are never used by the Visual Studio designer; this tool builds all its UI in code. -->
+    <NoWarn>$(NoWarn);WFO1000</NoWarn>
+  </PropertyGroup>
+
+</Project>
